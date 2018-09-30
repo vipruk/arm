@@ -8,7 +8,7 @@ use yii\filters\AccessControl;
 use common\models\LoginForm;
 
 /**
- * Site controllerbbbbbbbrtrrrrrrrrrrrrrrrr
+ * Site dd
  */
 class SiteController extends Controller
 {

@@ -5,11 +5,23 @@ id
 Дата начало соревнований - begin-date  date
 Дата окончание соревнований - end-date - date
 id_view - вид чемпионата
+Id_teams- название группы команд 
+Slug
 
 view_championship
 id
 title - название чемпионата(чемпионат мира, азии, города)
+Slug - указатель чемпионата
 
+Teams - название группы команд
+Id 
+Name
+
+Team - команда 
+Id 
+Id_teams
+Name - Название команды 
+Flag - флаг команды 
 
 
 соревнования - competition
@@ -29,8 +41,46 @@ category - категории
 id
 name - текстовое имя
 number - число
-mass_unit
+mass_unit -  единица измерения веса
+
+View_protocol вид протокола 
+Id 
+Name - до двух поражений,  до трех поражений,  топ 8, щведская система
+
+
 
 Категории соревнования category-competition
+Id
+Id_category - индентификатор категории 
+Id_compitetion индентификатор соревнования 
+Id_View_protocol - режим проколирования
+
+Member Card -  карточка участника
+Id
+Id-sportsman -  ссылка на профиль 
+Fio -  Данные участника
+Id_team -  выбор команды 
+Id_teams - индентификатор какой группе команд принадлежит карточка
+
+
+
+Result  -  Результаты 
+Id
+Id_category_competition
+Id_card
+Place -  место
+Leftplace
+Rightplace
+Pointleft
+Pointright
+Totalpoint
+
+Protocol_standart -до двух поражений 
+Protocol_Swedish - по очкам
+Protocol_free_defeats
+
+
+
+
 
 

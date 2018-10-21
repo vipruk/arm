@@ -91,6 +91,7 @@ Totalpoint
 Protocol_standart -до двух поражений 
 Protocol_Swedish - по очкам
 Protocol_free_defeats
+protocol_olimpic - олимпиская система
 
 
 
